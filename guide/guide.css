@@ -28,7 +28,13 @@ img { max-width: 100%; }
 .brand .logo { width: 34px; height: 34px; border-radius: 10px; background: var(--brand); color: #fff; display: flex; align-items: center; justify-content: center; }
 .brand b { display: block; font-size: 17px; }
 .brand span { font-size: 13px; color: var(--muted); }
-.side p { margin: 18px 8px 6px; font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.side .grp { display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 4px; padding: 10px; border: 0; border-radius: 8px; background: none; font: inherit; font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; text-align: left; cursor: pointer; }
+.side .grp::after { content: "▸"; font-size: 14px; }
+.side .grp.open::after { content: "▾"; }
+.side .grp:hover { background: #e4e6eb; }
+.side .grp.active { color: var(--brand); }
+.side .grp-items { display: none; margin-bottom: 8px; }
+.side .grp.open + .grp-items { display: block; }
 .side a { display: block; padding: 6px 10px; border-radius: 8px; color: var(--text); text-decoration: none; font-size: 14px; }
 .side a:hover { background: #e4e6eb; }
 .side a.active { background: var(--brand-soft); color: var(--brand); font-weight: 600; }
