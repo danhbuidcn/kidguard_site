@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách bảo mật – kidguard</title>
+<link rel="stylesheet" href="../guide/guide.css">
+</head>
+<body>
+<button class="menu-btn" aria-label="Mở mục lục">☰</button>
+<aside class="side">
+  <div class="brand"><span class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/></svg></span><div><b>kidguard</b><span>Chính sách bảo mật</span></div></div>
+  <nav id="toc"></nav>
+  <a class="switch" href="terms.html">Xem Điều khoản sử dụng ›</a>
+</aside>
+
+<main><div class="content">
+  <h1 class="page">Chính sách bảo mật</h1>
+  <p>Cập nhật lần cuối: 2026-11-11. Áp dụng cho ứng dụng kidguard trên Android, cả vai trò Cha mẹ và Con.</p>
+  <p>Trang này nói rõ kidguard thu dữ liệu gì, để làm gì, lưu bao lâu và bạn xóa thế nào. Cha mẹ nên đọc trước khi cài app trên máy con, và giải thích cho con bằng lời dễ hiểu.</p>
+
+  <!-- ================= TÓM TẮT ================= -->
+  <div class="part"><h1>Tóm tắt</h1><p>Đọc 1 phút.</p></div>
+
+  <section id="summary">
+    <h2>Điều quan trọng nhất</h2>
+    <table>
+      <tr><th>Câu hỏi</th><th>Trả lời ngắn</th></tr>
+      <tr><td>Ai xem được dữ liệu của con?</td><td>Chỉ cha mẹ trong cùng nhóm gia đình.</td></tr>
+      <tr><td>Có bán dữ liệu không?</td><td>Không. Không bán, không cho thuê, không dùng để quảng cáo.</td></tr>
+      <tr><td>Có quảng cáo trong app không?</td><td>Không.</td></tr>
+      <tr><td>Có đọc tin nhắn, ảnh trong app khác (Zalo, Messenger…) không?</td><td>Không.</td></tr>
+      <tr><td>Nhật ký hoạt động lưu bao lâu?</td><td>3 tháng, rồi tự xóa.</td></tr>
+      <tr><td>Phải đồng ý gì trước khi dùng?</td><td>Lần đầu mở app, bạn đọc chính sách này và <a href="terms.html">Điều khoản sử dụng</a>, tích ô và bấm Đồng ý.</td></tr>
+      <tr><td>Con có biết mình được theo dõi không?</td><td>Có. Máy con hiện màn hình giải thích và con phải bấm Đồng ý.</td></tr>
+    </table>
+    <div class="note"><b>kidguard dành cho gia đình</b>App giúp cha mẹ đặt giờ dùng điện thoại cho con và giữ liên lạc với con. App không dùng để theo dõi người lớn hoặc theo dõi lén.</div>
+  </section>
+
+  <!-- ================= DỮ LIỆU ================= -->
+  <div class="part"><h1>Dữ liệu thu thập</h1><p>Chia theo vai trò.</p></div>
+
+  <section id="data-parent">
+    <h2>Dữ liệu của cha mẹ</h2>
+    <table>
+      <tr><th>Dữ liệu</th><th>Lấy từ đâu</th><th>Để làm gì</th></tr>
+      <tr><td>Tên, email, ảnh đại diện Google</td><td>Đăng nhập Google</td><td>Đăng nhập, hiện tên trong nhóm</td></tr>
+      <tr><td>Dòng máy, bản Android</td><td>Máy cha mẹ</td><td>Hiện trong danh sách thành viên, sửa lỗi theo hãng máy</td></tr>
+      <tr><td>Mã nhận thông báo (mã máy để gửi thông báo đẩy)</td><td>Firebase Cloud Messaging</td><td>Báo tin nhắn, cuộc gọi, cảnh báo</td></tr>
+      <tr><td>Luật giờ, công tắc app đã đặt cho con</td><td>Cha mẹ nhập</td><td>Gửi sang máy con để khóa đúng giờ</td></tr>
+    </table>
+  </section>
+
+  <section id="data-child">
+    <h2>Dữ liệu của con</h2>
+    <p>Con không cần tài khoản, không cần email hay số điện thoại.</p>
+    <table>
+      <tr><th>Dữ liệu</th><th>Ví dụ</th><th>Để làm gì</th></tr>
+      <tr><td>Tên hiển thị, dòng máy, bản Android</td><td>"Bin", Redmi Note 12, Android 14</td><td>Cha mẹ nhận ra máy của con</td></tr>
+      <tr><td>Danh sách app đã cài</td><td>YouTube, Zalo, Google Classroom</td><td>Cha mẹ bật/tắt công tắc tính giờ từng app</td></tr>
+      <tr><td>Số phút dùng mỗi app mỗi ngày</td><td>YouTube 28 phút</td><td>Khóa khi hết giờ, báo cáo 7 ngày</td></tr>
+      <tr><td>Nhật ký: app đã mở, từ khóa tìm kiếm, địa chỉ web, tên video YouTube</td><td>"cách chơi minecraft"</td><td>Cha mẹ biết con xem gì để nhắc nhở kịp thời</td></tr>
+      <tr><td>Cảnh báo chống phá</td><td>Tắt quyền, đổi giờ máy, tắt máy lâu</td><td>Báo cha mẹ khi app không còn bảo vệ được</td></tr>
+      <tr><td>Trạng thái quyền, lần cuối máy hoạt động</td><td>Trợ năng: bật</td><td>Hiện máy con đang online, quyền còn đủ</td></tr>
+      <tr><td>Thời điểm con bấm Đồng ý</td><td>2026-11-11 19:30</td><td>Ghi nhận sự đồng ý</td></tr>
+    </table>
+    <p>Nhật ký chỉ đọc chữ trong 4 app: Chrome, Google, YouTube, Cốc Cốc. App khác chỉ ghi tên app và thời gian dùng.</p>
+    <div class="warn"><b>kidguard KHÔNG thu</b>Vị trí, danh bạ, cuộc gọi điện thoại thường, tin nhắn SMS, nội dung tin nhắn và ảnh trong app khác, mật khẩu, chữ gõ trong chế độ ẩn danh, ảnh trong máy (trừ ảnh con tự chọn gửi trong chat kidguard).</div>
+  </section>
+
+  <section id="data-chat">
+    <h2>Chat và gọi video</h2>
+    <ul>
+      <li><b>Tin nhắn và ảnh</b> gửi trong chat kidguard được lưu để cả nhà xem lại. Ảnh được nén nhỏ trước khi gửi.</li>
+      <li><b>Gọi video</b>: hình và tiếng truyền trực tiếp qua dịch vụ Agora, <b>không ghi lại</b>. App chỉ lưu 1 dòng "cuộc gọi lúc…, dài bao lâu" trong chat.</li>
+      <li>Chỉ người trong nhóm gia đình xem được chat của nhóm. Chat riêng 2 người chỉ 2 người đó xem.</li>
+    </ul>
+  </section>
+
+  <section id="permissions">
+    <h2>Quyền trên máy con dùng vào việc gì</h2>
+    <p>Mỗi quyền có màn hình giải thích riêng trên máy con. Con hoặc cha mẹ phải bấm đồng ý mới bật.</p>
+    <table>
+      <tr><th>Quyền</th><th>Dùng để</th><th>Không dùng để</th></tr>
+      <tr><td>Trợ năng (Accessibility, quyền đọc màn hình)</td><td>Biết app nào đang mở để hiện màn hình khóa khi hết giờ; đọc từ khóa, địa chỉ web, tên video trong 4 app nêu trên</td><td>Đọc tin nhắn, mật khẩu; tự bấm thay con; thu dữ liệu ngoài danh sách trên</td></tr>
+      <tr><td>Thống kê sử dụng (Usage access)</td><td>Đếm phút dùng từng app</td><td>—</td></tr>
+      <tr><td>Quản trị máy (Device admin)</td><td>Chặn gỡ app khi chưa được cha mẹ cho phép</td><td>Xóa dữ liệu máy, đổi mật khẩu khóa màn hình</td></tr>
+      <tr><td>Camera, micro</td><td>Gọi video, chụp ảnh gửi chat (chỉ khi đang dùng)</td><td>Quay, ghi âm ngầm</td></tr>
+      <tr><td>Thông báo</td><td>Báo tin nhắn, cuộc gọi, giờ còn lại</td><td>—</td></tr>
+    </table>
+  </section>
+
+  <!-- ================= XỬ LÝ ================= -->
+  <div class="part"><h1>Lưu trữ và chia sẻ</h1></div>
+
+  <section id="third-party">
+    <h2>Dịch vụ bên ngoài</h2>
+    <p>kidguard không có máy chủ riêng. Dữ liệu đi qua 2 dịch vụ sau, mỗi dịch vụ có chính sách riêng:</p>
+    <table>
+      <tr><th>Dịch vụ</th><th>Dùng cho</th><th>Chính sách</th></tr>
+      <tr><td>Google Firebase (Auth, Firestore, Storage, Cloud Messaging, Functions)</td><td>Đăng nhập, lưu dữ liệu, ảnh chat, gửi thông báo</td><td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></td></tr>
+      <tr><td>Agora</td><td>Truyền hình và tiếng khi gọi video</td><td><a href="https://www.agora.io/en/privacy-policy/" target="_blank" rel="noopener">agora.io/en/privacy-policy</a></td></tr>
+    </table>
+    <p>Máy chủ của các dịch vụ này có thể đặt ngoài Việt Nam. Ngoài 2 dịch vụ trên, kidguard chỉ cung cấp dữ liệu khi cơ quan nhà nước có thẩm quyền yêu cầu theo đúng luật.</p>
+  </section>
+
+  <section id="retention">
+    <h2>Lưu bao lâu</h2>
+    <table>
+      <tr><th>Dữ liệu</th><th>Thời gian lưu</th></tr>
+      <tr><td>Nhật ký hoạt động, số phút dùng, cảnh báo</td><td>3 tháng, rồi tự xóa</td></tr>
+      <tr><td>Tin nhắn, ảnh chat</td><td>Đến khi nhóm gia đình bị xóa hoặc có yêu cầu xóa</td></tr>
+      <tr><td>Thông tin thành viên, luật giờ</td><td>Đến khi thành viên bị xóa khỏi nhóm hoặc có yêu cầu xóa</td></tr>
+      <tr><td>Hình và tiếng cuộc gọi video</td><td>Không lưu</td></tr>
+    </table>
+  </section>
+
+  <section id="security">
+    <h2>Bảo vệ dữ liệu</h2>
+    <ul>
+      <li>Dữ liệu truyền qua kết nối mã hóa (HTTPS/TLS) và được Google mã hóa khi lưu.</li>
+      <li>Quy tắc truy cập trên Firestore chỉ cho người đã được duyệt vào nhóm đọc dữ liệu của nhóm đó. Con không đọc được nhật ký của chính mình hay của anh chị em.</li>
+      <li>Muốn vào nhóm phải có mã nhóm và được cha mẹ duyệt. Cha mẹ đổi mã nhóm bất cứ lúc nào.</li>
+    </ul>
+    <div class="note"><b>Phần của gia đình</b>Giữ kín mã nhóm. Đặt khóa màn hình cho máy cha mẹ, vì ai cầm máy cha mẹ đều xem được dữ liệu của con.</div>
+  </section>
+
+  <!-- ================= QUYỀN ================= -->
+  <div class="part"><h1>Trẻ em và quyền của bạn</h1></div>
+
+  <section id="children">
+    <h2>Dữ liệu trẻ em và sự đồng ý</h2>
+    <ul>
+      <li>Cha mẹ hoặc người giám hộ cài app trên máy con và chịu trách nhiệm đồng ý thay con.</li>
+      <li>Con từ 7 tuổi trở lên: máy con hiện màn hình giải thích, con đọc (cùng cha mẹ) và bấm <span class="ui">Đồng ý</span>. Đây là yêu cầu của pháp luật Việt Nam về bảo vệ dữ liệu cá nhân.</li>
+      <li>kidguard không dùng dữ liệu của con để quảng cáo, gợi ý nội dung hay huấn luyện máy học.</li>
+    </ul>
+  </section>
+
+  <section id="rights">
+    <h2>Quyền của bạn</h2>
+    <table>
+      <tr><th>Bạn muốn</th><th>Cách làm</th></tr>
+      <tr><td>Xem dữ liệu</td><td>Cha mẹ: Gia đình → bấm vào con → Báo cáo, Nhật ký.</td></tr>
+      <tr><td>Ngừng thu dữ liệu của con</td><td>Cha mẹ xóa máy con khỏi nhóm, hoặc gỡ kidguard trên máy con.</td></tr>
+      <tr><td>Rút lại sự đồng ý</td><td>Cha mẹ xóa máy con khỏi nhóm, hoặc xóa nhóm gia đình.</td></tr>
+      <tr><td>Xóa tài khoản, xóa nhóm</td><td>Tự làm trong app, xem <a href="#delete">Xóa tài khoản và nhóm gia đình</a>.</td></tr>
+      <tr><td>Hỏi, khiếu nại</td><td>Gửi email theo mục <a href="#contact">Liên hệ</a>.</td></tr>
+    </table>
+  </section>
+
+  <section id="delete">
+    <h2>Xóa tài khoản và nhóm gia đình</h2>
+    <p>Chỉ cha mẹ làm được. Xóa xong là xóa ngay, <b>không lấy lại được</b>.</p>
+    <table>
+      <tr><th>Việc</th><th>Cách làm</th><th>Dữ liệu bị xóa</th></tr>
+      <tr><td>Xóa nhóm gia đình</td><td>Cài đặt → <span class="ui">Xóa nhóm gia đình</span> → gõ tên nhóm → <span class="ui">Xóa</span>. Mọi cha mẹ trong nhóm đều xóa được.</td><td>Toàn bộ dữ liệu của nhóm: thành viên, luật giờ, báo cáo, nhật ký, cảnh báo, tin nhắn, ảnh chat. Máy con quay về màn nhập mã nhóm.</td></tr>
+      <tr><td>Xóa tài khoản</td><td>Cài đặt → <span class="ui">Xóa tài khoản</span> → <span class="ui">Xóa</span>. Nếu bạn là cha mẹ duy nhất trong nhóm, phải xóa nhóm trước.</td><td>Thông tin tài khoản của bạn trong kidguard và tư cách thành viên nhóm. Tin nhắn bạn đã gửi trong nhóm vẫn còn cho người khác xem.</td></tr>
+    </table>
+    <p>Đã gỡ app và không vào lại được: gửi email theo mục <a href="#contact">Liên hệ</a>, ghi tên nhóm và email Google đã dùng.</p>
+    <div class="note"><b>Tài khoản Google không bị xóa</b>kidguard chỉ xóa dữ liệu của kidguard. Tài khoản Google của bạn vẫn giữ nguyên.</div>
+  </section>
+
+  <!-- ================= KHÁC ================= -->
+  <div class="part"><h1>Khác</h1></div>
+
+  <section id="changes">
+    <h2>Thay đổi chính sách</h2>
+    <p>Bên phát hành có thể sửa chính sách này bất cứ lúc nào. Ngày cập nhật ghi ở đầu trang. Bạn tiếp tục dùng app sau ngày đó nghĩa là bạn đồng ý với bản mới.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Liên hệ</h2>
+    <p>Bên phát hành: <b>Bùi Văn Thượng</b> (cá nhân)<br>Email: <a href="mailto:buithuong99nd@gmail.com">buithuong99nd@gmail.com</a></p>
+    <p style="margin-bottom:4px">Xem thêm:</p>
+    <ul>
+      <li><a href="https://danhbuidcn.github.io/kidguard_site/legal/terms.html" target="_blank" rel="noopener">Điều khoản sử dụng</a></li>
+      <li><a href="https://danhbuidcn.github.io/kidguard_site/guide/parent.html" target="_blank" rel="noopener">Hướng dẫn cho cha mẹ</a></li>
+      <li><a href="https://danhbuidcn.github.io/kidguard_site/guide/child.html" target="_blank" rel="noopener">Hướng dẫn cho con</a></li>
+    </ul>
+  </section>
+</div></main>
+<a class="top-link" href="#" aria-label="Lên đầu trang">↑</a>
+<script src="../guide/guide.js"></script>
+</body>
+</html>

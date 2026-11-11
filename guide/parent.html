@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hướng dẫn sử dụng cho cha mẹ – kidguard</title>
+<link rel="stylesheet" href="guide.css">
+</head>
+<body>
+<button class="menu-btn" aria-label="Mở mục lục">☰</button>
+<aside class="side">
+  <div class="brand"><span class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/></svg></span><div><b>kidguard</b><span>Hướng dẫn cho cha mẹ</span></div></div>
+  <nav id="toc"></nav>
+  <a class="switch" href="../legal/terms.html">Điều khoản sử dụng ›</a>
+  <a class="switch" href="../legal/privacy.html">Chính sách bảo mật ›</a>
+</aside>
+
+<main><div class="content">
+  <label class="guide-for">Hướng dẫn cho
+    <select onchange="location.href=this.value" aria-label="Chọn hướng dẫn">
+      <option value="parent.html" selected>Cha mẹ</option>
+      <option value="child.html">Con</option>
+    </select></label>
+  <h1 class="page">Hướng dẫn sử dụng cho cha mẹ</h1>
+  <p>kidguard giúp cha mẹ đặt giờ dùng điện thoại cho con, khóa máy khi cần, xem con dùng app gì và nói chuyện với cả nhà. Trang này hướng dẫn từng bước trên máy của cha mẹ.</p>
+
+  <!-- ================= BẮT ĐẦU ================= -->
+  <div class="part"><h1>Bắt đầu</h1><p>Làm 1 lần khi mới cài app.</p></div>
+
+  <section id="overview">
+    <h2>kidguard làm được gì</h2>
+    <table>
+      <tr><th>Việc</th><th>Ở đâu</th></tr>
+      <tr><td>Giới hạn số giờ dùng app mỗi ngày</td><td>Gia đình → chọn con → <span class="ui">Khóa app</span></td></tr>
+      <tr><td>Đặt giờ được dùng, giờ ngủ</td><td>Gia đình → chọn con → thẻ <span class="ui">Khung giờ</span></td></tr>
+      <tr><td>Khóa máy con ngay, thưởng thêm phút</td><td>Gia đình → chọn con → <span class="ui">Khóa ngay</span> / <span class="ui">Thưởng phút</span></td></tr>
+      <tr><td>Xem con dùng bao lâu, mở app gì, tìm gì</td><td>Gia đình → chọn con → <span class="ui">Báo cáo</span> / <span class="ui">Nhật ký</span></td></tr>
+      <tr><td>Được báo khi con tắt quyền, chỉnh giờ máy…</td><td>Gia đình → chọn con → <span class="ui">Thông báo</span></td></tr>
+      <tr><td>Nhắn tin, gửi ảnh, gọi video (riêng hoặc cả nhà)</td><td>Tab <span class="ui">Chat</span></td></tr>
+    </table>
+    <p>Màn hình chính có 3 tab ở dưới cùng: <span class="ui">Gia đình</span> · <span class="ui">Chat</span> · <span class="ui">Cài đặt</span>.</p>
+  </section>
+
+  <section id="install">
+    <h2>Cài app và đăng nhập</h2>
+    <h3>Cách làm</h3>
+    <ol>
+      <li>Cài file kidguard (APK) trên máy của cha mẹ.</li>
+      <li>Mở app, đọc <b>Điều khoản sử dụng</b> và <b>Chính sách bảo mật</b>, tích ô <span class="ui">Tôi đã đọc và đồng ý</span>, bấm <span class="ui">Đồng ý và tiếp tục</span>. Chỉ làm 1 lần.</li>
+      <li>Chọn <span class="ui">Cha mẹ</span>.</li>
+      <li>Bấm <span class="ui">Đăng nhập bằng Google</span>, chọn tài khoản Google của mình.</li>
+    </ol>
+    <div class="shots">
+      <figure><img src="images/p-role.jpg" alt="Màn chọn vai trò"><figcaption>Chọn Cha mẹ</figcaption></figure>
+      <figure><img src="images/p-login.jpg" alt="Màn đăng nhập Google"><figcaption>Đăng nhập Google</figcaption></figure>
+    </div>
+    <div class="tip"><b>Mẹo</b>Ở màn chọn vai trò có link <span class="ui">Xem hướng dẫn sử dụng</span> để đọc trang này trước khi cài.</div>
+    <div class="warn"><b>Chọn đúng vai trò</b>Máy của cha mẹ chọn <b>Cha mẹ</b>. Máy của con chọn <b>Con</b>. Chọn nhầm thì gỡ app rồi cài lại.</div>
+    <div class="note"><b>Chỉ cha mẹ đăng nhập</b>Cha mẹ đăng nhập bằng tài khoản Google. Con không cần tài khoản.</div>
+  </section>
+
+  <section id="group">
+    <h2>Tạo nhóm gia đình</h2>
+    <p>Mỗi gia đình có 1 nhóm. Cha mẹ và con đều vào cùng nhóm.</p>
+    <h3>Người đầu tiên: tạo nhóm</h3>
+    <ol>
+      <li>Sau khi đăng nhập, bấm <span class="ui">Tạo nhóm mới</span>.</li>
+      <li>Đặt tên nhóm, ví dụ "Nhà Bin", bấm <span class="ui">Tạo nhóm</span>.</li>
+      <li>App hiện <b>mã nhóm</b> (ví dụ KG7-4QX) và mã QR. Bấm <span class="ui">Tiếp tục</span>.</li>
+    </ol>
+    <div class="shots">
+      <figure><img src="images/p-group-choice.jpg" alt="Tạo hoặc vào nhóm"><figcaption>Tạo nhóm hoặc vào nhóm</figcaption></figure>
+      <figure><img src="images/p-group-create.jpg" alt="Đặt tên nhóm"><figcaption>Đặt tên nhóm</figcaption></figure>
+      <figure><img src="images/p-group-done.jpg" alt="Mã nhóm và QR"><figcaption>Mã nhóm và QR</figcaption></figure>
+    </div>
+    <h3>Cha hoặc mẹ thứ hai: vào nhóm có sẵn</h3>
+    <ol>
+      <li>Cài app, chọn <span class="ui">Cha mẹ</span>, đăng nhập Google.</li>
+      <li>Bấm <span class="ui">Vào nhóm đã có</span>, nhập mã nhóm hoặc quét QR.</li>
+      <li>Chờ người trong nhóm duyệt (xem <a href="#approve">Duyệt người xin vào nhóm</a>).</li>
+    </ol>
+    <div class="tip"><b>Mẹo</b>Mã nhóm dùng lâu dài, không hết hạn. Xem lại bất cứ lúc nào ở <span class="ui">Cài đặt</span> → <span class="ui">Mã nhóm</span>.</div>
+  </section>
+
+  <section id="add-child">
+    <h2>Thêm máy của con</h2>
+    <h3>Cách làm</h3>
+    <ol>
+      <li>Trên máy con: cài kidguard, chọn <span class="ui">Con</span>.</li>
+      <li>Máy con nhập mã nhóm hoặc quét QR trên máy cha mẹ (<span class="ui">Cài đặt</span> → <span class="ui">Mã nhóm</span>).</li>
+      <li>Trên máy cha mẹ: tab <span class="ui">Gia đình</span> → mục <b>Đang chờ duyệt</b> → bấm <span class="ui">Duyệt</span>.</li>
+      <li>Trên máy con: đọc màn "App ghi lại những gì", bấm <span class="ui">Đồng ý</span>, rồi cấp 3 quyền và cho app chạy nền. Xem chi tiết ở <a href="child.html#setup">hướng dẫn cho con</a>.</li>
+    </ol>
+    <div class="shots">
+      <figure><img src="images/p-code.jpg" alt="Mã nhóm trong Cài đặt"><figcaption>Cài đặt → Mã nhóm</figcaption></figure>
+      <figure><img src="images/p-family.jpg" alt="Duyệt máy con"><figcaption>Bấm Duyệt</figcaption></figure>
+    </div>
+    <div class="warn"><b>Cha mẹ nên tự cài máy con</b>Bước cấp quyền cần mở Cài đặt của máy. Nếu bỏ qua, app không khóa được. Mỗi hãng máy (Xiaomi, Samsung, Oppo…) có cách cho app chạy nền khác nhau, app có hướng dẫn riêng cho từng hãng.</div>
+  </section>
+
+  <!-- ================= GIA ĐÌNH ================= -->
+  <div class="part"><h1>Gia đình</h1><p>Tab Gia đình: danh sách người trong nhóm.</p></div>
+
+  <section id="members">
+    <h2>Xem danh sách thành viên</h2>
+    <p>Tab <span class="ui">Gia đình</span> có 3 phần:</p>
+    <ul>
+      <li><b>Đang chờ duyệt</b>: máy mới xin vào nhóm (chỉ hiện khi có).</li>
+      <li><b>Con</b>: mỗi máy con 1 dòng: tên, tên máy, đang hoạt động hay không, số giờ đã dùng hôm nay trên giới hạn.</li>
+      <li><b>Cha mẹ</b>: những người cha mẹ trong nhóm.</li>
+    </ul>
+    <div class="shots"><figure><img src="images/p-family.jpg" alt="Tab Gia đình"><figcaption>Tab Gia đình</figcaption></figure></div>
+    <div class="cases">
+      <div><b>Có chấm xanh</b> → máy đang mở app, có mạng.</div>
+      <div><b>"Thấy lần cuối 25 phút trước"</b> → máy chưa gửi tin về từ lúc đó (máy tắt, mất mạng, hoặc đang gửi chậm).</div>
+      <div><b>Nhãn vàng "thiếu quyền"</b> → con đã tắt 1 quyền, app có thể không khóa được. Xem <a href="#not-locking">Máy con không khóa</a>.</div>
+    </div>
+    <div class="note"><b>Số liệu trễ tối đa khoảng 15 phút</b>Máy con gửi số phút đã dùng mỗi 15 phút để đỡ tốn pin. Việc khóa vẫn đúng giờ vì máy con tự tính trên máy.</div>
+  </section>
+
+  <section id="approve">
+    <h2>Duyệt người xin vào nhóm</h2>
+    <ol>
+      <li>Có máy mới xin vào → cha mẹ nhận thông báo.</li>
+      <li>Mở tab <span class="ui">Gia đình</span>, xem mục <b>Đang chờ duyệt</b>: tên máy và vai trò (Con hoặc Cha mẹ).</li>
+      <li>Đúng máy nhà mình → <span class="ui">Duyệt</span>. Không biết máy nào → <span class="ui">Từ chối</span>.</li>
+    </ol>
+    <div class="cases">
+      <div><b>Khi</b> có 2 cha mẹ → ai duyệt trước cũng được.</div>
+      <div><b>Khi</b> từ chối nhầm → máy đó nhập lại mã nhóm để xin lại.</div>
+      <div><b>Khi</b> cha mẹ đã được duyệt đổi sang điện thoại mới → đăng nhập cùng tài khoản Google là vào thẳng, không cần duyệt lại.</div>
+      <div><b>Khi</b> thấy máy lạ xin vào → bấm Từ chối, rồi <a href="#change-code">đổi mã nhóm</a>.</div>
+    </div>
+  </section>
+
+  <section id="rename-remove">
+    <h2>Đổi tên, xóa máy con khỏi nhóm</h2>
+    <p>Tên ban đầu là tên máy. Đặt tên dễ nhớ như "Bin", "Na".</p>
+    <ol>
+      <li>Tab <span class="ui">Gia đình</span> → bấm vào con.</li>
+      <li>Bấm nút <span class="ui">⋯</span> ở góc trên bên phải.</li>
+      <li>Chọn <span class="ui">Đổi tên</span>, hoặc <span class="ui">Xóa khỏi nhóm</span> (máy con thôi bị quản lý).</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-kid-menu.jpg" alt="Menu của con"><figcaption>Đổi tên · Xóa khỏi nhóm</figcaption></figure></div>
+  </section>
+
+  <!-- ================= GIỜ DÙNG VÀ KHÓA ================= -->
+  <div class="part"><h1>Giờ dùng và khóa máy</h1><p>Gia đình → bấm vào con → tab Khóa app.</p></div>
+
+  <section id="rules">
+    <h2>Cách app tính giờ</h2>
+    <p>Mỗi máy con có luật riêng. Máy con bị khóa khi gặp 1 trong các trường hợp sau:</p>
+    <table>
+      <tr><th>Trường hợp</th><th>Khóa gì</th></tr>
+      <tr><td>Hết giới hạn chung trong ngày</td><td>Khóa các app đang <b>bật</b> công tắc. App tắt công tắc vẫn dùng được.</td></tr>
+      <tr><td>Ngoài <b>Thời gian sử dụng</b></td><td>Khóa cả máy</td></tr>
+      <tr><td>Trong <b>Thời gian hạn chế sử dụng</b> (giờ ngủ)</td><td>Khóa cả máy</td></tr>
+      <tr><td>Cha mẹ bấm <b>Khóa ngay</b></td><td>Khóa cả máy tới khi mở khóa</td></tr>
+    </table>
+    <div class="note"><b>Khi máy bị khóa, con vẫn:</b> gọi điện thoại, nhắn tin và gọi video cho người trong nhóm qua kidguard, mở các app tắt công tắc (ví dụ Google Classroom, Zalo).</div>
+    <div class="note"><b>Ngày mới bắt đầu lúc 00:00</b> theo giờ trên máy con. Phút đã dùng và phút thưởng quay về 0.</div>
+  </section>
+
+  <section id="limit">
+    <h2>Đặt giới hạn giờ mỗi ngày</h2>
+    <ol>
+      <li>Gia đình → bấm vào con → tab <span class="ui">Khóa app</span>.</li>
+      <li>Thẻ <b>Giới hạn chung hôm nay</b> → bấm <span class="ui">Sửa</span>.</li>
+      <li>Chọn <span class="ui">Mọi ngày như nhau</span>, hoặc <span class="ui">Từng thứ</span> để đặt riêng từng ngày (ví dụ cuối tuần nhiều hơn).</li>
+      <li>Gõ số giờ và số phút vào 2 ô (tối đa 12 giờ), hoặc bấm <span class="ui">−</span> / <span class="ui">+</span> để giảm/tăng 15 phút. Bấm <span class="ui">Lưu</span>.</li>
+    </ol>
+    <div class="shots">
+      <figure><img src="images/p-lock.jpg" alt="Tab Khóa app"><figcaption>Tab Khóa app</figcaption></figure>
+      <figure><img src="images/p-limit.jpg" alt="Sửa giới hạn"><figcaption>Sửa giới hạn</figcaption></figure>
+    </div>
+    <p>Thanh xanh dưới số giờ cho biết con đã dùng bao nhiêu, còn bao nhiêu.</p>
+    <div class="cases">
+      <div><b>Khi</b> giảm giới hạn xuống thấp hơn số con đã dùng → các app bật công tắc bị khóa ngay.</div>
+      <div><b>Khi</b> máy con mất mạng → máy vẫn khóa đúng theo luật đã lưu. Luật mới chỉ tới khi có mạng lại.</div>
+    </div>
+  </section>
+
+  <section id="apps">
+    <h2>Chọn app tính giờ</h2>
+    <p>Kéo xuống thẻ <b>Ứng dụng trên máy …</b>. Mỗi app có 1 công tắc.</p>
+    <table>
+      <tr><th>Công tắc</th><th>Nghĩa là</th><th>Nên dùng cho</th></tr>
+      <tr><td><b>Bật</b> (xanh)</td><td>App được tính vào giới hạn chung. Hết giờ thì khóa.</td><td>YouTube, TikTok, game</td></tr>
+      <tr><td><b>Tắt</b> (xám)</td><td>Con dùng tự do, không tính giờ, không bị khóa khi hết giờ.</td><td>Học tập, Zalo, Máy tính, Camera</td></tr>
+    </table>
+    <p>Ô <span class="ui">Tìm app</span> giúp tìm nhanh khi máy có nhiều app. Dưới mỗi app ghi số phút con đã dùng hôm nay.</p>
+    <div class="cases">
+      <div><b>Khi</b> con cài app mới → app hiện trong danh sách. Cha mẹ kiểm tra và bật công tắc nếu cần.</div>
+      <div><b>Khi</b> app luôn dùng được → vẫn bị khóa trong giờ ngủ và khi Khóa ngay (vì khóa cả máy).</div>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <h2>Đặt khung giờ (giờ được dùng, giờ ngủ)</h2>
+    <ol>
+      <li>Thẻ <b>Khung giờ</b> → bấm <span class="ui">Sửa</span>.</li>
+      <li><b>Thời gian sử dụng</b>: con chỉ dùng máy trong khoảng này, ví dụ 07:00 – 21:00.</li>
+      <li><b>Thời gian hạn chế sử dụng</b>: khóa cả máy, ví dụ giờ ngủ 21:30 – 06:30.</li>
+      <li>Muốn bỏ 1 dòng thì tắt công tắc bên phải dòng đó (hiện "Không đặt").</li>
+      <li>Ở mục <b>Ngày</b>, chọn các thứ áp dụng (T2 … CN). Thứ màu xám là không áp dụng.</li>
+      <li>Bấm <span class="ui">Lưu</span>.</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-schedule.jpg" alt="Sửa khung giờ"><figcaption>Sửa khung giờ</figcaption></figure></div>
+    <div class="cases">
+      <div><b>Khi</b> giờ ngủ qua nửa đêm (21:30 – 06:30) → nhập bình thường, app tự hiểu là tới sáng hôm sau.</div>
+      <div><b>Khi</b> cuối tuần cho thức khuya hơn → bỏ chọn T7, CN ở mục Ngày.</div>
+    </div>
+  </section>
+
+  <section id="lock-now">
+    <h2>Khóa ngay</h2>
+    <ol>
+      <li>Tab <span class="ui">Khóa app</span> → bấm nút đỏ <span class="ui">Khóa ngay</span>.</li>
+      <li>Bấm <span class="ui">Khóa ngay</span> lần nữa để xác nhận. Máy con khóa sau vài giây (cần máy con có mạng).</li>
+      <li>Muốn mở lại: bấm <span class="ui">Mở khóa</span> trên dòng đỏ "Máy đang khóa".</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-lock-now.jpg" alt="Xác nhận khóa ngay"><figcaption>Xác nhận Khóa ngay</figcaption></figure></div>
+    <div class="note"><b>Khóa ngay không tự hết</b>Máy con khóa tới khi cha mẹ bấm Mở khóa.</div>
+  </section>
+
+  <section id="bonus">
+    <h2>Thưởng thêm phút</h2>
+    <ol>
+      <li>Tab <span class="ui">Khóa app</span> → bấm <span class="ui">Thưởng phút</span>.</li>
+      <li>Chọn số phút trong danh sách (15, 30, 45, 60, 90, 120 phút).</li>
+      <li>Bấm <span class="ui">Thưởng</span>. Giới hạn hôm nay tăng ngay.</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-bonus.jpg" alt="Thưởng phút"><figcaption>Chọn số phút thưởng</figcaption></figure></div>
+    <div class="cases">
+      <div><b>Khi</b> con đang bị khóa vì hết giờ → thưởng phút là mở lại được.</div>
+      <div><b>Khi</b> con đang trong giờ ngủ hoặc Khóa ngay → thưởng phút không mở máy. Muốn mở thì sửa khung giờ hoặc bấm Mở khóa.</div>
+      <div><b>Phút thưởng chỉ dùng trong hôm nay</b>, sang ngày mới thì hết.</div>
+    </div>
+  </section>
+
+  <!-- ================= THEO DÕI ================= -->
+  <div class="part"><h1>Theo dõi</h1><p>Gia đình → bấm vào con → các tab Báo cáo, Nhật ký, Thông báo.</p></div>
+
+  <section id="report">
+    <h2>Xem báo cáo thời gian dùng</h2>
+    <ol>
+      <li>Bấm vào con → tab <span class="ui">Báo cáo</span>.</li>
+      <li>Thẻ <b>Hôm nay</b>: tổng thời gian đã dùng và giới hạn.</li>
+      <li>Biểu đồ <b>7 ngày gần nhất</b>: cột đỏ là ngày dùng quá giới hạn. Bấm 1 cột để xem riêng ngày đó.</li>
+      <li><b>Theo app</b>: số phút từng app. App ghi "không tính giờ" là app tắt công tắc.</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-report.jpg" alt="Báo cáo"><figcaption>Báo cáo 7 ngày</figcaption></figure></div>
+  </section>
+
+  <section id="log">
+    <h2>Xem nhật ký hoạt động</h2>
+    <p>Nhật ký ghi theo giờ: app con đã mở, từ khóa con tìm, trang web, video YouTube đã xem và các cảnh báo.</p>
+    <ol>
+      <li>Bấm vào con → tab <span class="ui">Nhật ký</span>.</li>
+      <li>Ô bên trái: chọn ngày (<span class="ui">Hôm nay</span>, <span class="ui">Hôm qua</span>, hoặc <span class="ui">Chọn ngày…</span> trong 3 tháng gần nhất).</li>
+      <li>Ô bên phải: chọn loại (<span class="ui">Tất cả</span>, App, Tìm kiếm, Web, Video, Cảnh báo).</li>
+      <li>Bấm 1 dòng để xem đầy đủ.</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-log.jpg" alt="Nhật ký"><figcaption>Nhật ký hoạt động</figcaption></figure></div>
+    <div class="note"><b>App không ghi</b> ảnh, tin nhắn, mật khẩu. Nhật ký tự xóa sau 3 tháng.</div>
+    <div class="cases">
+      <div><b>Khi</b> không thấy từ khóa tìm kiếm → con dùng trình duyệt app chưa hỗ trợ, hoặc tab ẩn danh.</div>
+      <div><b>Khi</b> nhật ký mới nhất cách đây lâu → máy con mất mạng. Nhật ký sẽ gửi lên khi có mạng lại.</div>
+    </div>
+  </section>
+
+  <section id="alerts">
+    <h2>Cài thông báo cảnh báo</h2>
+    <p>Chọn những việc cha mẹ muốn nhận thông báo. Mỗi máy con cài riêng.</p>
+    <ol>
+      <li>Bấm vào con → tab <span class="ui">Thông báo</span>.</li>
+      <li>Bật công tắc những mục muốn được báo.</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-notify.jpg" alt="Thông báo"><figcaption>Chọn việc cần báo</figcaption></figure></div>
+    <table>
+      <tr><th>Mục</th><th>Báo khi</th></tr>
+      <tr><td>Tắt quyền</td><td>Con tắt Trợ năng hoặc Thống kê sử dụng. App có thể không khóa được.</td></tr>
+      <tr><td>Tắt Quản trị máy</td><td>Con tắt quyền giữ app. Con có thể gỡ app.</td></tr>
+      <tr><td>Chỉnh giờ máy</td><td>Con đổi giờ trên máy để được dùng thêm.</td></tr>
+      <tr><td>Mất mạng lâu</td><td>Máy con có mạng lại sau thời gian dài mất mạng.</td></tr>
+      <tr><td>Hết giờ · Tới giờ ngủ · Khóa ngay</td><td>Máy con vừa bị khóa vì lý do đó.</td></tr>
+    </table>
+    <div class="note"><b>Mọi việc vẫn được ghi</b> trong tab Nhật ký (loại Cảnh báo), kể cả khi tắt thông báo.</div>
+  </section>
+
+  <!-- ================= CHAT ================= -->
+  <div class="part"><h1>Chat và gọi video</h1><p>Tab Chat, giống Messenger.</p></div>
+
+  <section id="chat">
+    <h2>Nhắn tin, gửi ảnh</h2>
+    <ol>
+      <li>Mở tab <span class="ui">Chat</span>. Dòng đầu là <b>Cả nhà</b> (chat nhóm), dưới là từng người.</li>
+      <li>Bấm 1 dòng để mở. Gõ chữ vào ô <span class="ui">Aa</span>, bấm nút gửi.</li>
+      <li>Gửi ảnh: bấm nút ảnh bên trái, chọn <span class="ui">Chụp ảnh</span> hoặc <span class="ui">Chọn từ máy</span>.</li>
+    </ol>
+    <div class="shots">
+      <figure><img src="images/p-chat-list.jpg" alt="Danh sách chat"><figcaption>Danh sách chat</figcaption></figure>
+      <figure><img src="images/p-chat.jpg" alt="Chat riêng"><figcaption>Chat riêng</figcaption></figure>
+    </div>
+    <div class="cases">
+      <div><b>"Đã xem"</b> dưới tin cuối → người kia đã mở đọc.</div>
+      <div><b>Khi</b> mất mạng → tin chờ gửi, có mạng lại thì tự gửi.</div>
+      <div><b>Tin đã gửi</b> không sửa, không xóa được, và không tự xóa.</div>
+      <div><b>Con với con</b> cũng nhắn riêng được cho nhau.</div>
+    </div>
+  </section>
+
+  <section id="call">
+    <h2>Gọi video 1–1</h2>
+    <ol>
+      <li>Mở chat riêng với 1 người → bấm nút máy quay ở góc trên bên phải.</li>
+      <li>Máy kia đổ chuông, kể cả khi app đang đóng.</li>
+      <li>Trong cuộc gọi: tắt/bật mic, tắt/bật camera, đổi camera trước/sau, nút đỏ để cúp máy.</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-call.jpg" alt="Đang gọi video"><figcaption>Đang gọi video</figcaption></figure></div>
+    <div class="cases">
+      <div><b>Khi</b> 30 giây không ai nghe → chat ghi "Cuộc gọi nhỡ".</div>
+      <div><b>Khi</b> người kia đang trong cuộc gọi khác → báo máy bận.</div>
+      <div><b>Khi</b> máy con đang bị khóa → con vẫn nghe và gọi được.</div>
+    </div>
+  </section>
+
+  <section id="group-call">
+    <h2>Gọi video cả nhà</h2>
+    <ol>
+      <li>Mở chat <b>Cả nhà</b> → bấm nút máy quay ở góc trên bên phải.</li>
+      <li>Mọi người trong nhóm đổ chuông. Ai bấm <span class="ui">Nghe</span> thì vào cuộc gọi.</li>
+      <li>Màn hình chia ô, mỗi người 1 ô có tên. Tối đa 8 người.</li>
+      <li>Bấm nút đỏ để rời. Cuộc gọi vẫn chạy cho những người còn lại.</li>
+    </ol>
+    <div class="shots">
+      <figure><img src="images/p-gcall.jpg" alt="Gọi video cả nhà"><figcaption>Gọi cả nhà</figcaption></figure>
+      <figure><img src="images/p-gjoin.jpg" alt="Tham gia muộn"><figcaption>Vào muộn: bấm Tham gia</figcaption></figure>
+    </div>
+    <div class="cases">
+      <div><b>Khi</b> lỡ chuông hoặc bấm Bỏ qua → mở chat Cả nhà, bấm <span class="ui">Tham gia</span> khi cuộc gọi còn chạy.</div>
+      <div><b>Khi</b> chỉ còn 1 người → cuộc gọi tự kết thúc, chat ghi "Cuộc gọi cả nhà · X phút".</div>
+      <div><b>Khi</b> không ai nghe sau 30 giây → chat ghi "Cuộc gọi nhỡ".</div>
+      <div><b>Khi</b> đã đủ 8 người → người thứ 9 thấy "Cuộc gọi đã đủ người".</div>
+      <div><b>Con</b> cũng bắt đầu cuộc gọi cả nhà được.</div>
+    </div>
+  </section>
+
+  <!-- ================= CÀI ĐẶT ================= -->
+  <div class="part"><h1>Cài đặt</h1><p>Tab Cài đặt.</p></div>
+
+  <section id="settings">
+    <h2>Tên, ngôn ngữ, đăng xuất</h2>
+    <div class="shots"><figure><img src="images/p-settings.jpg" alt="Cài đặt"><figcaption>Tab Cài đặt</figcaption></figure></div>
+    <ul>
+      <li><span class="ui">Đổi tên</span>: tên của mình mà cả nhà thấy.</li>
+      <li><b>Ngôn ngữ</b>: bấm ô bên phải, chọn <span class="ui">Tiếng Việt</span> hoặc <span class="ui">English</span>. Chỉ đổi trên máy này.</li>
+      <li><span class="ui">Hướng dẫn sử dụng</span>: mở trang này.</li>
+      <li><span class="ui">Điều khoản sử dụng</span>, <span class="ui">Chính sách bảo mật</span>: đọc lại bất cứ lúc nào.</li>
+      <li><span class="ui">Đăng xuất</span>: thoát tài khoản trên máy này. Đăng nhập lại bằng cùng tài khoản Google là vào lại nhóm, không cần duyệt.</li>
+    </ul>
+  </section>
+
+  <section id="change-code">
+    <h2>Xem và đổi mã nhóm</h2>
+    <ol>
+      <li><span class="ui">Cài đặt</span> → <span class="ui">Mã nhóm</span>: hiện mã và QR để người khác quét.</li>
+      <li>Mã bị lộ → bấm <span class="ui">Đổi mã</span> → xác nhận. Mã cũ hết dùng ngay.</li>
+    </ol>
+    <div class="shots"><figure><img src="images/p-code.jpg" alt="Mã nhóm"><figcaption>Mã nhóm và Đổi mã</figcaption></figure></div>
+    <div class="note"><b>Đổi mã không ảnh hưởng người đã trong nhóm.</b> Chỉ người mới cần mã mới.</div>
+  </section>
+
+  <section id="delete">
+    <h2>Xóa nhóm gia đình, xóa tài khoản</h2>
+    <div class="warn"><b>Xóa là mất luôn</b>Không lấy lại được dữ liệu sau khi xóa.</div>
+    <h3>Xóa nhóm gia đình</h3>
+    <ol>
+      <li><span class="ui">Cài đặt</span> → <span class="ui">Xóa nhóm gia đình</span>.</li>
+      <li>Gõ đúng tên nhóm, bấm <span class="ui">Xóa nhóm</span>.</li>
+    </ol>
+    <p>Mọi cha mẹ trong nhóm đều xóa được. Xóa hết thành viên, luật giờ, báo cáo, nhật ký, tin nhắn, ảnh. Máy con quay về màn nhập mã nhóm.</p>
+    <h3>Xóa tài khoản</h3>
+    <ol>
+      <li><span class="ui">Cài đặt</span> → <span class="ui">Xóa tài khoản</span> → <span class="ui">Xóa tài khoản</span>.</li>
+    </ol>
+    <p>Bạn rời nhóm, dữ liệu tài khoản trong kidguard bị xóa. Tin nhắn đã gửi vẫn còn. Tài khoản Google không bị xóa.</p>
+    <div class="cases">
+      <div><b>Khi</b> báo "Chưa xóa được tài khoản" → bạn là cha mẹ duy nhất trong nhóm. Xóa nhóm gia đình trước.</div>
+    </div>
+    <p>Chi tiết dữ liệu bị xóa: <a href="../legal/privacy.html#delete">Chính sách bảo mật</a>.</p>
+  </section>
+
+  <!-- ================= HỎI ĐÁP ================= -->
+  <div class="part"><h1>Khi gặp sự cố</h1><p>Câu hỏi thường gặp.</p></div>
+
+  <section id="not-locking">
+    <h2>Máy con không khóa</h2>
+    <ol>
+      <li>Tab Gia đình: con có nhãn <b>thiếu quyền</b> không? Có → trên máy con bấm <span class="ui">Bật lại</span> ở thông báo đỏ, bật kidguard trong Trợ năng.</li>
+      <li>Kiểm tra công tắc của app đó đã <b>bật</b> chưa (tab Khóa app).</li>
+      <li>Kiểm tra máy con cho kidguard chạy nền: Cài đặt pin → kidguard → Không giới hạn (cách làm theo hãng ở <a href="child.html#setup">hướng dẫn cho con</a>).</li>
+      <li>Vẫn không được → gỡ kidguard trên máy con, cài lại, nhập mã nhóm, cha mẹ duyệt lại.</li>
+    </ol>
+  </section>
+
+  <section id="faq">
+    <h2>Câu hỏi thường gặp</h2>
+    <details><summary>Số phút trong app khác với số con nói?</summary>Số liệu trên máy cha mẹ trễ tối đa khoảng 15 phút. Máy con tự tính và khóa đúng giờ.</details>
+    <details><summary>Không nhận được thông báo?</summary>Trên máy cha mẹ: Cài đặt Android → Ứng dụng → kidguard → Thông báo → bật. Kiểm tra mục đó đã bật ở tab Thông báo của con chưa.</details>
+    <details><summary>Không nhận cuộc gọi khi app đóng?</summary>Cho kidguard chạy nền và không tối ưu pin (Cài đặt pin → kidguard → Không giới hạn). Một số máy cần bật "Hiện trên màn hình khóa".</details>
+    <details><summary>Con đổi giờ máy để được dùng thêm?</summary>App phát hiện và ghi cảnh báo "Chỉnh giờ máy". Bật thông báo mục này ở tab Thông báo.</details>
+    <details><summary>Con gỡ app được không?</summary>Không, khi quyền Quản trị máy còn bật. Con tắt quyền này thì cha mẹ được báo (nếu bật mục "Tắt Quản trị máy").</details>
+    <details><summary>Con đổi sang điện thoại mới?</summary>Cài kidguard trên máy mới, chọn Con, nhập mã nhóm, cha mẹ duyệt. Đặt lại luật cho máy mới (mỗi máy có luật riêng). Xóa máy cũ khỏi nhóm.</details>
+    <details><summary>Có ghi tin nhắn, ảnh của con không?</summary>Không. App chỉ ghi app đã mở, từ khóa tìm kiếm, trang web, tên video YouTube và các cảnh báo. Tự xóa sau 3 tháng.</details>
+    <details><summary>Gọi video có tốn tiền không?</summary>Không tính tiền với gia đình dùng bình thường. Dùng mạng wifi hoặc 4G của máy.</details>
+  </section>
+</div></main>
+<a class="top-link" href="#" aria-label="Lên đầu trang">↑</a>
+<script src="guide.js"></script>
+</body>
+</html>
