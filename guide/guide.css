@@ -35,6 +35,10 @@ img { max-width: 100%; }
 .side .grp.active { color: var(--brand); }
 .side .grp-items { display: none; margin-bottom: 8px; }
 .side .grp.open + .grp-items { display: block; }
+/* Short pages (terms, privacy): every part stays open, no fold arrow. */
+.no-fold .side .grp { cursor: default; pointer-events: none; }
+.no-fold .side .grp::after { content: none; }
+.no-fold .side .grp-items { display: block; }
 .side a { display: block; padding: 6px 10px; border-radius: 8px; color: var(--text); text-decoration: none; font-size: 14px; }
 .side a:hover { background: #e4e6eb; }
 .side a.active { background: var(--brand-soft); color: var(--brand); font-weight: 600; }
