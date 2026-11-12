@@ -106,16 +106,14 @@
     <p>Tab <span class="ui">Gia đình</span> có 3 phần:</p>
     <ul>
       <li><b>Đang chờ duyệt</b>: máy mới xin vào nhóm (chỉ hiện khi có).</li>
-      <li><b>Con</b>: mỗi máy con 1 dòng: tên, tên máy, đang hoạt động hay không, số giờ đã dùng hôm nay trên giới hạn.</li>
+      <li><b>Con</b>: mỗi máy con 1 dòng: tên, tên máy, số giờ đã dùng hôm nay trên giới hạn.</li>
       <li><b>Cha mẹ</b>: những người cha mẹ trong nhóm.</li>
     </ul>
     <div class="shots"><figure><img src="images/p-family.jpg" alt="Tab Gia đình"><figcaption>Tab Gia đình</figcaption></figure></div>
     <div class="cases">
-      <div><b>Có chấm xanh</b> → máy đang mở app, có mạng.</div>
-      <div><b>"Thấy lần cuối 25 phút trước"</b> → máy chưa gửi tin về từ lúc đó (máy tắt, mất mạng, hoặc đang gửi chậm).</div>
       <div><b>Nhãn vàng "thiếu quyền"</b> → con đã tắt 1 quyền, app có thể không khóa được. Xem <a href="#not-locking">Máy con không khóa</a>.</div>
     </div>
-    <div class="note"><b>Số liệu trễ tối đa khoảng 15 phút</b>Máy con gửi số phút đã dùng mỗi 15 phút để đỡ tốn pin. Việc khóa vẫn đúng giờ vì máy con tự tính trên máy.</div>
+    <div class="note"><b>Số liệu cập nhật 3 lần mỗi ngày</b>Máy con gửi số phút đã dùng lúc 06:00, 12:00, 18:00 để đỡ tốn pin. Việc khóa vẫn đúng giờ vì máy con tự tính trên máy.</div>
   </section>
 
   <section id="approve">
@@ -406,7 +404,7 @@
 
   <section id="faq">
     <h2>Câu hỏi thường gặp</h2>
-    <details><summary>Số phút trong app khác với số con nói?</summary>Số liệu trên máy cha mẹ trễ tối đa khoảng 15 phút. Máy con tự tính và khóa đúng giờ.</details>
+    <details><summary>Số phút trong app khác với số con nói?</summary>Số liệu trên máy cha mẹ là của lần gửi gần nhất (06:00, 12:00, 18:00). Máy con tự tính và khóa đúng giờ.</details>
     <details><summary>Không nhận được thông báo?</summary>Trên máy cha mẹ: Cài đặt Android → Ứng dụng → kidguard → Thông báo → bật. Kiểm tra mục đó đã bật ở tab Thông báo của con chưa.</details>
     <details><summary>Không nhận cuộc gọi khi app đóng?</summary>Cho kidguard chạy nền và không tối ưu pin (Cài đặt pin → kidguard → Không giới hạn). Một số máy cần bật "Hiện trên màn hình khóa".</details>
     <details><summary>Con đổi giờ máy để được dùng thêm?</summary>App phát hiện và ghi cảnh báo "Chỉnh giờ máy". Bật thông báo mục này ở tab Thông báo.</details>
