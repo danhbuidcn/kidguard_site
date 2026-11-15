@@ -150,12 +150,13 @@
     <p>Mỗi máy con có luật riêng. Máy con bị khóa khi gặp 1 trong các trường hợp sau:</p>
     <table>
       <tr><th>Trường hợp</th><th>Khóa gì</th></tr>
-      <tr><td>Hết giới hạn chung trong ngày</td><td>Khóa các app đang <b>bật</b> công tắc. App tắt công tắc vẫn dùng được.</td></tr>
+      <tr><td>Hết giới hạn chung trong ngày</td><td>Khóa các app <b>Tính giờ</b>. App Tự do vẫn dùng được.</td></tr>
+      <tr><td>App bị cha mẹ <b>Chặn</b></td><td>Luôn khóa app đó ("Bố mẹ đã chặn app này")</td></tr>
       <tr><td>Ngoài <b>Thời gian sử dụng</b></td><td>Khóa cả máy</td></tr>
       <tr><td>Trong <b>Thời gian hạn chế sử dụng</b> (giờ ngủ)</td><td>Khóa cả máy</td></tr>
       <tr><td>Cha mẹ bấm <b>Khóa ngay</b></td><td>Khóa cả máy tới khi mở khóa</td></tr>
     </table>
-    <div class="note"><b>Khi máy bị khóa, con vẫn:</b> gọi điện thoại, nhắn tin và gọi video cho người trong nhóm qua kidguard, mở các app tắt công tắc (ví dụ Google Classroom, Zalo).</div>
+    <div class="note"><b>Khi máy bị khóa, con vẫn:</b> gọi điện thoại, nhắn tin và gọi video cho người trong nhóm qua kidguard, mở các app Tự do (ví dụ Google Classroom, Zalo).</div>
     <div class="note"><b>Ngày mới bắt đầu lúc 00:00</b> theo giờ trên máy con. Phút đã dùng và phút thưởng quay về 0.</div>
   </section>
 
@@ -173,22 +174,23 @@
     </div>
     <p>Thanh xanh dưới số giờ cho biết con đã dùng bao nhiêu, còn bao nhiêu.</p>
     <div class="cases">
-      <div><b>Khi</b> giảm giới hạn xuống thấp hơn số con đã dùng → các app bật công tắc bị khóa ngay.</div>
+      <div><b>Khi</b> giảm giới hạn xuống thấp hơn số con đã dùng → các app Tính giờ bị khóa ngay.</div>
       <div><b>Khi</b> máy con mất mạng → máy vẫn khóa đúng theo luật đã lưu. Luật mới chỉ tới khi có mạng lại.</div>
     </div>
   </section>
 
   <section id="apps">
-    <h2>Chọn app tính giờ</h2>
-    <p>Kéo xuống thẻ <b>Ứng dụng trên máy …</b>. Mỗi app có 1 công tắc.</p>
+    <h2>Chọn mức cho từng app</h2>
+    <p>Kéo xuống thẻ <b>Ứng dụng trên máy …</b>. Mỗi app có 3 nút: <span class="ui">Tự do</span> · <span class="ui">Tính giờ</span> · <span class="ui">Chặn</span>. Mặc định: Tự do.</p>
     <table>
-      <tr><th>Công tắc</th><th>Nghĩa là</th><th>Nên dùng cho</th></tr>
-      <tr><td><b>Bật</b> (xanh)</td><td>App được tính vào giới hạn chung. Hết giờ thì khóa.</td><td>YouTube, TikTok, game</td></tr>
-      <tr><td><b>Tắt</b> (xám)</td><td>Con dùng tự do, không tính giờ, không bị khóa khi hết giờ.</td><td>Học tập, Zalo, Máy tính, Camera</td></tr>
+      <tr><th>Mức</th><th>Nghĩa là</th><th>Nên dùng cho</th></tr>
+      <tr><td><b>Tự do</b></td><td>Con dùng tự do, không tính giờ, không bị khóa khi hết giờ.</td><td>Học tập, Zalo, Máy tính, Camera</td></tr>
+      <tr><td><b>Tính giờ</b></td><td>App được tính vào giới hạn chung. Hết giờ thì khóa.</td><td>YouTube, TikTok, game</td></tr>
+      <tr><td><b>Chặn</b></td><td>Luôn khóa, kể cả còn giờ và trong khung giờ được dùng. Không tính giờ.</td><td>App không muốn con dùng</td></tr>
     </table>
     <p>Ô <span class="ui">Tìm app</span> giúp tìm nhanh khi máy có nhiều app. Dưới mỗi app ghi số phút con đã dùng hôm nay.</p>
     <div class="cases">
-      <div><b>Khi</b> con cài app mới → app hiện trong danh sách. Cha mẹ kiểm tra và bật công tắc nếu cần.</div>
+      <div><b>Khi</b> con cài app mới → app hiện trong danh sách. Cha mẹ kiểm tra và chọn Tính giờ hoặc Chặn nếu cần.</div>
       <div><b>Khi</b> app luôn dùng được → vẫn bị khóa trong giờ ngủ và khi Khóa ngay (vì khóa cả máy).</div>
     </div>
   </section>
@@ -245,7 +247,7 @@
       <li>Bấm vào con → tab <span class="ui">Báo cáo</span>.</li>
       <li>Thẻ <b>Hôm nay</b>: tổng thời gian đã dùng và giới hạn.</li>
       <li>Biểu đồ <b>7 ngày gần nhất</b>: cột đỏ là ngày dùng quá giới hạn. Bấm 1 cột để xem riêng ngày đó.</li>
-      <li><b>Theo app</b>: số phút từng app. App ghi "không tính giờ" là app tắt công tắc.</li>
+      <li><b>Theo app</b>: số phút từng app. App Tự do ghi "không tính giờ", app bị Chặn ghi "bị chặn".</li>
     </ol>
     <div class="shots"><figure><img src="images/p-report.jpg" alt="Báo cáo"><figcaption>Báo cáo 7 ngày</figcaption></figure></div>
   </section>
@@ -257,7 +259,7 @@
       <li>Bấm vào con → tab <span class="ui">Nhật ký</span>.</li>
       <li>Ô bên trái: chọn ngày (<span class="ui">Hôm nay</span>, <span class="ui">Hôm qua</span>, hoặc <span class="ui">Chọn ngày…</span> trong 3 tháng gần nhất).</li>
       <li>Ô bên phải: chọn loại (<span class="ui">Tất cả</span>, App, Tìm kiếm, Web, Video, Cảnh báo).</li>
-      <li>Bấm 1 dòng để xem đầy đủ.</li>
+      <li>Bấm 1 dòng để xem đầy đủ. Dòng <span class="ui">Web</span> hoặc <span class="ui">Video</span> có nút <span class="ui">Sao chép link</span>: bấm để lưu link, rồi dán vào tin nhắn hoặc trình duyệt.</li>
     </ol>
     <div class="shots"><figure><img src="images/p-log.jpg" alt="Nhật ký"><figcaption>Nhật ký hoạt động</figcaption></figure></div>
     <div class="note"><b>App không ghi</b> ảnh, tin nhắn, mật khẩu. Nhật ký tự xóa sau 3 tháng.</div>
@@ -396,7 +398,7 @@
     <h2>Máy con không khóa</h2>
     <ol>
       <li>Tab Gia đình: con có nhãn <b>thiếu quyền</b> không? Có → trên máy con bấm <span class="ui">Bật lại</span> ở thông báo đỏ, bật kidguard trong Trợ năng.</li>
-      <li>Kiểm tra công tắc của app đó đã <b>bật</b> chưa (tab Khóa app).</li>
+      <li>Kiểm tra app đó đang ở mức <b>Tính giờ</b> hoặc <b>Chặn</b> chưa (tab Khóa app).</li>
       <li>Kiểm tra máy con cho kidguard chạy nền: Cài đặt pin → kidguard → Không giới hạn (cách làm theo hãng ở <a href="child.html#setup">hướng dẫn cho con</a>).</li>
       <li>Vẫn không được → gỡ kidguard trên máy con, cài lại, nhập mã nhóm, cha mẹ duyệt lại.</li>
     </ol>
